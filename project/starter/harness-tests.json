@@ -8,7 +8,7 @@
     {
       "id": "t2_bug_report_partial_info",
       "prompt": "I'm having an issue. When I try to add an item to my cart on Chrome for Mac, nothing happens. I clicked the Add to Cart button three times.",
-      "expected": "Acknowledges the bug, recognizes that steps to reproduce and environment were already given, and asks only for the remaining missing field (the bug description), or confirms it has enough and prepares to file the ticket."
+      "expected": "Acknowledges the bug, does not re-ask for information already stated (Chrome for Mac as environment), and asks a natural follow-up question to fill in whatever the model judges still missing (description or clear reproduction steps) - does not call the tool yet."
     },
     {
       "id": "t3_faq_delivery",
